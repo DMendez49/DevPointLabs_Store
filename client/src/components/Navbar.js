@@ -22,8 +22,8 @@ const Navbar = (props) => {
     axios.get("/api/categories")
       .then(res => {
         setTshirts(res.data[0])
-        setHats(res.data[1])
-        setHoodies(res.data[2])
+        setHats(res.data[2])
+        setHoodies(res.data[1])
         setStickers(res.data[3])
       })
   }, []);
