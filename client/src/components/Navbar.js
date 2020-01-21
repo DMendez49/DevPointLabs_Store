@@ -36,7 +36,6 @@ const Navbar = (props) => {
           { key: 2, text: 'Stickers', value: 'Stickers' },
           { key: 3, text: 'Contact', value: 'Contact' },
           { key: 4, text: 'AdminPage', value: 'AdminPage' },
-          { key: 5, text: 'Register', value: 'Register' },
           { key: 6, text: 'Logout', value: 'Logout' },
         ]
       )
